@@ -1,0 +1,512 @@
+@media only screen and (max-width: 767px) {
+  .full-size {
+    display: none !important;
+  }
+
+  .half-size {
+    display: block !important;
+    padding: 8px;
+    padding: 0.5rem;
+  }
+  .half-size select {
+    font-size: 16px;
+    font-size: 1rem;
+    margin: 8px;
+    margin: 0.5rem;
+    padding: 8px;
+    padding: 0.5rem;
+    width: 90%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .full-size {
+    display: block !important;
+  }
+
+  .half-size {
+    display: none !important;
+  }
+}
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  color: #515151;
+}
+
+a {
+  color: #c06606;
+}
+a:visited {
+  color: #c06606;
+}
+a:focus {
+  color: #e80c7a;
+}
+a:hover {
+  color: #e80c7a;
+}
+a:active {
+  color: magenta;
+}
+
+a.links {
+  margin: 16px;
+  margin: 1rem;
+  display: block;
+  text-decoration: none;
+}
+
+a.basic-links {
+  display: inline;
+  text-decoration: none;
+}
+
+img {
+  width: 95%;
+  margin: 16px;
+  margin: 1rem;
+}
+@media only screen and (max-width: 767px) {
+  img {
+    width: 90%;
+  }
+}
+
+ul li {
+  margin: 8px 0 0 0;
+  margin: 0.5rem 0 0 0;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #e5e5e5;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Eagle Lake', cursive;
+  color: #515151;
+}
+
+h1 {
+  font-size: 64px;
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 56px;
+  font-size: 3.5rem;
+  margin: 32px 0 0 0;
+  margin: 2rem 0 0 0;
+}
+
+h3 {
+  font-size: 48px;
+  font-size: 3rem;
+  margin: 32px 0 0 0;
+  margin: 2rem 0 0 0;
+}
+
+h4 {
+  font-size: 20.8px;
+  font-size: 1.3rem;
+  margin: 16px 0 8px 0;
+  margin: 1rem 0 0.5rem 0;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  padding: 11.2px 16px 11.2px 16px;
+  padding: 0.7rem 1rem 0.7rem 1rem;
+  background-color: #e5e5e5;
+  color: #454545;
+  letter-spacing: -2px;
+}
+
+h5 {
+  font-size: 20.8px;
+  font-size: 1.3rem;
+  margin: 32px 0 0 0;
+  margin: 2rem 0 0 0;
+  padding: 8px 16px 8px 16px;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border-bottom: 1px solid #e5e5e5;
+  color: #e80c7a;
+  letter-spacing: -1px;
+}
+h5 i {
+  font-size: 17.6px;
+  font-size: 1.1rem;
+}
+
+a {
+  text-decoration: none;
+}
+a h5 {
+  font-size: 20.8px;
+  font-size: 1.3rem;
+  margin: 0;
+  margin: 0;
+  padding: 8px 16px 8px 16px;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  background-color: #fff;
+  border-bottom: 1px solid #e5e5e5;
+  color: #e80c7a;
+  letter-spacing: -1px;
+}
+a h5:hover {
+  background-color: #e5e5e5;
+  cursor: pointer;
+}
+
+.nav-bg {
+  background-color: #e80c7a;
+}
+
+nav {
+  border-top: 2px solid #222;
+  border-bottom: 2px solid #222;
+  font-size: 0;
+  text-align: center;
+}
+nav div a {
+  color: white;
+  padding: 16px 12.8px 16px 12.8px;
+  padding: 1rem 0.8rem 1rem 0.8rem;
+  font-size: 16px;
+  font-size: 1rem;
+  display: inline-block;
+  margin: 0;
+  text-align: center;
+  text-decoration: none;
+}
+nav div a:visited {
+  color: white;
+}
+nav div a:focus {
+  color: white;
+}
+nav div a:hover {
+  color: white;
+}
+nav div a:active {
+  color: magenta;
+}
+nav div a:hover {
+  background-color: #8a2854;
+}
+
+.active {
+  background-color: #8a2854;
+}
+.active:after {
+  border-top: 15px solid black;
+  border-top-color: inherit;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  content: "";
+  right: 23px;
+  display: inline-block;
+  position: relative;
+  top: 34px;
+  margin-right: -30px;
+}
+
+p {
+  margin: 4.8px 0 8px 16px;
+  margin: 0.3rem 0 0.5rem 1rem;
+  line-height: 24px;
+  line-height: 1.5rem;
+}
+
+header {
+  background-color: #ebba1f;
+  background-image: url(../images/head-bg.jpg);
+  background-position: center top;
+  color: white;
+  width: 100%;
+}
+
+h1.logo {
+  height: 100%;
+  /* start height */
+  margin: 0 auto;
+  background-size: cover;
+  -moz-background-size: cover;
+  /* Firefox 3.6 */
+  background-position: center;
+  /* Internet Explorer 7/8 */
+  background-image: url(../images/sayville-hot-yoga.png);
+  height: 250px\9;
+}
+@media only screen and (max-width: 767px) {
+  h1.logo {
+    padding: 6%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  h1.logo {
+    padding: 10%;
+  }
+}
+@media only screen and (max-width: 479px) {
+  h1.logo {
+    padding: 0;
+  }
+}
+
+footer {
+  margin-top: 64px;
+  margin-top: 4rem;
+  background-color: #e80c7a;
+  background-image: url(../images/bottom-bg.gif);
+  color: #222;
+  padding-bottom: 80px;
+  width: 100%;
+}
+footer a {
+  color: #515151;
+  text-decoration: none;
+}
+footer a:visited {
+  color: #515151;
+}
+footer a:focus {
+  color: #515151;
+}
+footer a:hover {
+  color: #515151;
+}
+footer a:active {
+  color: red;
+}
+footer .foot-bg {
+  -moz-border-radius-topleft: 15px;
+  -webkit-border-top-left-radius: 15px;
+  border-top-left-radius: 15px;
+  -moz-border-radius-topright: 0;
+  -webkit-border-top-right-radius: 0;
+  border-top-right-radius: 0;
+  -moz-border-radius-bottomleft: 0px;
+  -webkit-border-bottom-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  -moz-border-radius-bottomright: 15px;
+  -webkit-border-bottom-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 8px 16px;
+  padding: 0.5rem 1rem;
+  margin-top: 16px;
+  margin-top: 1rem;
+  background: white;
+  background: rgba(255, 255, 255, 0.7);
+}
+@media only screen and (min-width: 768px) {
+  footer .foot-bg {
+    padding: 10;
+    min-height: 250px;
+  }
+}
+@media only screen and (max-width: 479px) {
+  footer .foot-bg {
+    min-height: auto;
+    margin-top: 10px !important;
+  }
+}
+@media only screen and (max-width: 767px) {
+  footer .foot-bg {
+    min-height: auto;
+    margin-top: 10px !important;
+  }
+}
+footer .foot-bg img {
+  margin: 0;
+}
+
+h6 {
+  font-size: 16px;
+  font-size: 1rem;
+  margin: 8px 0 8px 0;
+  margin: 0.5rem 0 0.5rem 0;
+  padding-bottom: 8px;
+  padding-bottom: 0.5rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  border-bottom: 1px solid #999;
+  color: #515151;
+  font-family: sans-serif;
+}
+
+.soc-icons {
+  background-image: url("../images/soc-icon-sprite.png");
+  height: 62px;
+  display: inline-block;
+  width: 62px;
+}
+
+.tw {
+  background-position: 0px 0px;
+}
+
+.fs {
+  background-position: -65px 0px;
+}
+
+.gg {
+  background-position: -128px 0px;
+}
+
+.yh {
+  background-position: -190px 0px;
+}
+
+.fb {
+  background-position: -254px 0px;
+}
+
+.yp {
+  background-position: -317px 0px;
+}
+
+.teacher {
+  margin-top: 24px;
+  margin-top: 1.5rem;
+  display: inline-block;
+  padding-right: 8px;
+  position: relative;
+  float: left;
+  width: 33%;
+}
+.teacher h6 {
+  text-decoration: none;
+}
+.teacher img {
+  margin: 0;
+  width: 100%;
+}
+
+img.teacher-bio {
+  margin: 8px 16px 8px 0;
+  margin: 0.5rem 1rem 0.5rem 0;
+  float: left;
+  width: 150px;
+}
+
+/* ==========================================================================
+   From old site for layout on rates page
+   ========================================================================== */
+.red-tx {
+  font-size: 19.2px;
+  font-size: 1.2rem;
+  margin-bottom: 16px;
+  margin-bottom: 1rem;
+  color: #e80c7a;
+}
+
+div.row {
+  margin: 4.8px;
+  margin: 0.3rem;
+  padding: 8px 0 8px 16px;
+  padding: 0.5rem 0 0.5rem 1rem;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+  clear: both;
+}
+
+div.row span.label {
+  float: left;
+  width: 80%;
+  text-align: left;
+}
+
+div.row span.formw {
+  float: right;
+  width: 20%;
+  text-align: left;
+}
+
+div.row span.label_70 {
+  float: left;
+  width: 68%;
+  text-align: left;
+}
+
+div.row span.formw_30 {
+  float: right;
+  width: 30%;
+  text-align: left;
+}
+
+/* ==========================================================================
+   Spacing Helpers
+   ========================================================================== */
+.vcard {
+  color: #515151;
+  line-height: 1.4rem;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.pull-rt {
+  float: right;
+}
+
+.pull-lt {
+  float: left;
+}
+
+.t-align-rt {
+  text-align: right;
+}
+
+.t-align-ct {
+  text-align: center;
+}
+
+.t-align-lt {
+  text-align: left;
+}
+
+.med-line-ht {
+  line-height: 22.4px;
+  line-height: 1.4rem;
+}
+
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.bot-mar {
+  margin-bottom: 16px;
+  margin-bottom: 1rem;
+}
+
+.pad-top-sm {
+  padding-top: 8px;
+  padding-top: 0.5rem;
+}
+
+.pad-top-med {
+  padding-top: 16px;
+  padding-top: 1rem;
+}
+
+.pad-bot-sm {
+  padding-bottom: 8px;
+  padding-bottom: 0.5rem;
+}
+
+.pad-left-sm {
+  padding-left: 8px;
+  padding-left: 0.5rem;
+}
